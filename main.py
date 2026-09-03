@@ -27,5 +27,7 @@ def main():
     cliente_prem = ClientePremium("Claudio", "Claudio@gmail.com", 26, 20, 100)
     print(cliente_prem.calcular_precio(7000))
 
+##git: https://github.com/GammautALU/APP-CINE-102-4B.git
+
 if __name__ == "__main__":
     main()
