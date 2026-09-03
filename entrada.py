@@ -5,7 +5,10 @@ class Entrada:
         self.__asiento = asiento
 
     def mostrar_datos(self):
-        pass
+        return f"""--Entrada--
+Número: {self.__numero}
+Asiento: {self.__asiento}
+"""
 
     def es_asiento_valido(self):
         pass

@@ -9,4 +9,5 @@ class ClientePremium(Cliente):
         self.__puntos = puntos
 
     def calcular_precio(self, precio):
-        pass
+        descuento = precio * self.__descuento // 100
+        return f"Precio: {precio - descuento}"

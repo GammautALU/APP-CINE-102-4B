@@ -6,7 +6,11 @@ class Cliente:
         self.__edad = edad
 
     def mostrar_datos(self):
-        pass
+        return f"""--Cliente--
+Nombre: {self.__nombre}
+Correo: {self.__correo}
+Edad: {self.__edad}
+"""
 
     def calcular_precio(self, precio):
-        pass
+        return precio
